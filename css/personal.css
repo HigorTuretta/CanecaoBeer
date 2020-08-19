@@ -1,0 +1,1153 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html { scroll-behavior: smooth; }
+body {
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	color: #50596;
+}
+
+/*Cadastro*/
+#homecad2{
+	padding-bottom: 10vh;
+	margin: 10vh 20vh 15vh 20vh;
+	width: 75%;
+}
+
+.form-group{
+	color: white;
+	
+}
+#cadbutons button{
+	border-radius: 0;
+	margin-right: 5px;
+}
+#parte1{
+	color: white;
+}
+.progress{
+	margin-top: 16vh;
+	width: 75%;
+	margin-left: 22vh;
+
+}
+
+.icones {
+	color: white;
+}
+/* fim cadastro*/
+
+.carousel-inner{
+	overflow-y: auto;
+}
+/* SESSÃO DA PÁGINA DE CADASTRO */
+
+.card-body span{
+	font-size: 10px;
+}
+.card-footer .btn{
+	border:none;
+	border-radius: 0;
+}
+.card-deck{
+	margin: 12vh 20vh 15vh 20vh;
+}
+@media(max-width: 395px){
+.card-deck{
+	margin-top: 16rem;
+	margin: 10px;
+}
+#homecad2{
+	margin-top: 8rem;
+	margin-left:50px;
+}
+#homecad2 button{
+	margin-top: 3px;
+}
+#carrinho{
+	max width: 396px!important;
+}
+
+}
+#CadSection{
+	height: 100%;
+	padding-bottom: 100px;
+	margin-top: 20vh;
+	margin-bottom: 15vh;
+}
+#CadSection button{
+	margin-right: 5px;
+}
+.card{
+	color: white;
+	background-color: rgba(0, 0, 0, .6)!important;
+	border:none!important;
+	border-style: none!important;
+}
+#escolhido{
+	margin-top: -2rem;
+}
+#SelecionePlano{
+	max-height: 100%;
+}
+#CadHome{
+	background-image: url(../imagens/cadbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#CadHome2{
+	background-image: url(../imagens/cadbg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#CadHome3{
+	background-image: url(../imagens/cadbg3.jpg);
+	background-repeat: no-repeat;
+}
+#CadHome4{
+	background-image: url(../imagens/cadbg4.jpg);
+	background-repeat: no-repeat;
+}
+#cadastro2{
+	border-radius: 10px;
+	padding: 20px 20px;
+	background-color: rgba(0, 0, 0, .6)
+}
+#imgmeio{
+	width: 400px;
+	margin-top: 4rem;
+	margin-left: 2.5rem;
+}
+#logomeio{
+	width: 200px;
+	margin-left: 8.5rem;
+}
+.card-title{
+	font-size: 25px;
+	text-transform: uppercase;
+	color: yellow;
+	text-shadow: .1rem .1rem .1rem red;
+}
+.card-text span{
+	font-size: 25px;
+	color: yellow;
+	font-weight: lighter;
+	text-shadow: .1rem .1rem .1rem red;
+}
+.card-text{
+	font-size: 12px!important;	
+	font-weight: lighter;
+}
+
+/* FIM DA PÁGINA DE CADASTRO */
+/* começo da navbar */
+.offset:before{
+	height: 4rem;
+	margin-top: -2rem;
+	content: "";
+	display: block;
+}
+.offsetcervas:before{
+	height: 8rem;
+	margin-top: -4rem;
+	content: "";
+	display: block;
+}
+.navbar{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background-color: rgba(0, 0, 0, .6)!important;
+
+}
+.navbar-brand img{
+	margin-left: 1rem;
+	height: 2.5rem;
+	width: 11.9rem;
+}
+.navbar-brand span{
+	font-family: 'Kaushan Script', cursive;
+	letter-spacing: normal;
+	font-size: 25px;
+	text-transform: none;
+	margin-left: 0.5rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:#1ebba3;
+}
+/* fim da navbar */
+
+/* começo do carousel */
+.carousel-item{
+	height: 100vh;
+}
+.carousel-caption{
+	position: absolute;
+	top: 38%;
+	text-transform: uppercase;
+	width: 100%;
+	right: 0;
+	left: 0;
+}
+.carousel-caption h1{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 72px;
+	font-weight: 500;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.carousel-caption h3 {
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem;
+}
+.btn-lg {
+	border-width: medium;
+	border-radius: 0;
+	font-size: 1.1rem;
+}
+/* fim do carousel */
+
+/* Inicio de como funciona */
+#comofunciona {
+	padding: 4rem 0;
+	background-color: #d4d4d4;
+	text-transform: uppercase;
+}
+#titlefunciona{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: .1rem;
+}
+#titlefunciona h1{
+	font-size: 3.6rem;
+}
+#titlefunciona h4{
+	padding-bottom: 2.7rem;
+}
+
+.Sub-description{
+	margin-top: -15px;
+	font-size: 15px;
+	color: #615f5f
+}
+
+.row span{
+	font-size: 8rem;
+}
+.N-description{
+	font-size: 25px;
+}
+.N-description3{
+	font-size: 18px;
+	margin-top: 5px;
+}
+.col-sm{
+	padding-right: 33,33%;
+}
+
+/* Fim de como funciona */
+
+/* INICIO DE ESTE MÊS */
+#estemes{
+	padding: 4rem 0;
+	background-image: url(../imagens/cervejasbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#estemes a{
+	font-size: 15px;
+	font-weight: bold;
+}
+#estemestitle{
+	color: white;
+	text-shadow: .1rem .1rem .20rem black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: .1rem;
+	font-size: 3rem;
+	padding: 0 0 4rem 0 ;
+}
+.imgcervejas{
+	height: 12rem;
+}
+
+/* FIM DE ESTE MÊS */
+
+/* CERVEJAS VARIANTES */
+#excerveja{
+	width: 100%;
+	height: 36rem;
+	display: flex;
+	justify-content: space-around;	
+	font-family: 'Roboto', sans-serif;
+}
+
+.offsetcervas img{
+	height: 24rem!important;
+	margin: 2rem 20rem 8rem 5rem!important;
+}
+.variantestitle{
+	color: white;
+	text-shadow: .1rem .1rem .20rem black;
+	font-weight: bold;
+	margin: 2rem 20rem 5rem 5rem!important;
+}
+.variantesSubTitle{
+	color: white;
+	font-weight: bold;
+	font-size: 32px;
+	text-shadow: .1rem .1rem .20rem black;
+}
+.variantesDescription{
+	color: white;
+	font-size: 25px;
+	text-shadow: .2rem .2rem .20rem black;
+}
+
+/* FIM DE VARIANTES */
+
+/* contato */
+
+footer {
+	background-color: #40474e;
+	color: white;
+	padding: 1rem 0 1rem;
+	margin-top: 0;
+}
+footer img{
+	height: 3rem;
+	margin: 1.5rem 0 .5rem;	
+}
+footer a {
+	color: white;
+}
+footer svg.svg-inline--fa {
+	font-size: 1.6rem;
+	margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover{
+	color: #1ebba3;
+}
+hr.socket{
+	border-top: .2rem solid #666b71;
+	width: 100%;
+}
+#sobre{
+	margin-top: 0;
+	padding-top: 0;
+}
+#sobre p{
+	margin: 1rem;
+}
+/* fim do contato */
+
+/* ajustando o tamanho conforme a tela */
+@media (max-width: 1300px){
+	.variantestitle{
+		font-size: 35px;
+		margin: 2rem 4rem 2rem 2.5rem!important;
+	}
+	.variantesSubTitle{
+		font-size: 26px;
+	}
+	.variantesDescription{
+		font-size: 20px;
+		margin-right: 3rem;
+	}
+	.imgcervejas{
+		height: 8rem;
+	}
+
+}
+@media (max-width: 900px){
+	.offsetcervas img{
+		height: 20rem!important;
+		margin: 70px 20px 15px 70px!important;
+	}	
+}
+@media (max-width: 767px){
+	.carousel-caption h1{
+		font-size: 2.3rem;
+		padding-bottom: .5rem;
+	}
+
+	.carousel-caption h3 {
+		font-size: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+	.btn-lg {
+		font-size: 1rem;
+	}
+	.offsetcervas img{
+		height: 15rem!important;
+		margin: 70px 15px 15px 10px!important;
+	}
+	.cervejinhas div{
+		margin: 0 0 0 20px!important;
+	}
+	.cervejinhas img{
+		margin: 10px!important;
+
+	}
+	.variantestitle{
+		font-size: 18px;
+		margin: 1rem 4rem 2rem 2.5rem!important;
+	}
+	.variantesSubTitle{
+		font-size: 15px;
+	}
+	.variantesDescription{
+		font-size: 10px;
+	}
+	.imgcervejas{
+		height: 8rem;
+	}
+
+	#estemes a{
+		font-size: 12px;
+		font-weight: bold;
+	}
+}
+@media (max-width: 1370px){
+
+	.variantesDescription{
+		font-size: 22px;
+		margin-right: 3rem;
+
+	}
+
+}
+@media (max-width: 400px){
+	.variantestitle{
+		font-size: 18px;
+		margin: 2rem 4rem 2rem 2.5rem!important;
+	}
+	.variantesSubTitle{
+		font-size: 15px;
+	}
+	.variantesDescription{
+		font-size: 13px;
+		margin-right: 45px!important;
+		margin-left: 40px!important;
+	}
+	.offsetcervas img{
+		height: 15rem!important;
+		margin: 70px 20px 20px 10px!important;
+	}
+	#col{
+		margin-left: 12rem;
+	}
+
+	#cadastro2{
+		margin-left: 10rem;
+		padding: 0;
+	}
+	.number{
+		font-size: 27px!important;
+	}
+	.btn1{
+		width: 75%!important;
+		margin-left: 5vh;
+	}
+	#voltarpag{
+		width: 75%!important;
+		margin-left: 5vh;
+	}
+
+
+}
+
+/* INICIO DA BARRA DE PROGRESSO*/
+#barrinha{
+	color: white;
+	margin-top: 16vh;
+	margin-bottom: -6vh;
+}
+.ProgressSteps-wrapper {
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
+}
+@media screen and (max-width: 47.9375em) {
+	.ProgressSteps-wrapper {
+		width: 100%;
+	}
+}
+
+.ProgressSteps {
+	font-size: 16px;
+	margin: 0 auto 2em;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ProgressSteps-bar {
+	position: absolute;
+	width: 95%;
+	height: 5px;
+	top: 25%;
+	left: 2.5%;
+	background: #d7d9e0;
+}
+@media (max-width: 780px){
+	#barrinha{
+		display: none;
+	}
+	#cadastro2{
+		margin-right: 2rem;
+		margin-left: -2rem;
+	}
+	.checkout{
+		margin-top: 20rem;
+	}
+	#homecad2{
+		margin-top: 6rem;
+	}
+	#chegaprabaixo{
+		height: 10px;
+		margin-top: 6rem;
+	}
+	#final{
+		margin-top: 6rem;
+	}
+}
+@media (max-width: 1300px){
+.ProgressSteps-bar{
+width: 92%;	
+}
+#sumir {
+	display: none;
+}
+
+}
+
+@media (max-width: 1650px){
+.ProgressSteps-bar{
+width: 93%;	
+}
+
+}
+.ProgressSteps-bar:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0.5%;
+	width: 0%;
+	height: 5px;
+	z-index: 2;
+	background: #d17402;
+	transition: all 1s ease-in-out;
+}
+.ProgressSteps-wrapper.step-2 .ProgressSteps-bar:after {
+	width: 31%;
+}
+.ProgressSteps-wrapper.step-3 .ProgressSteps-bar:after {
+	width: 65%;
+}
+.ProgressSteps-wrapper.step-4 .ProgressSteps-bar:after {
+	width: 98%;
+}
+	
+@media screen and (max-width: 47.9375em) {
+	.ProgressSteps-wrapper.step-5 .ProgressSteps-bar:after {
+		width: 100%;
+	}
+}
+.ProgressSteps-wrapper.ProgressSteps--short.step-2 .ProgressSteps-bar:after {
+	width: 35%;
+}
+.ProgressSteps-wrapper.ProgressSteps--short.step-3 .ProgressSteps-bar:after {
+	width: 55%;
+}
+.ProgressSteps-wrapper.ProgressSteps--short.step-4 .ProgressSteps-bar:after {
+	width: 80%;
+}
+html.ie9 .ProgressSteps-wrapper.ProgressSteps--short.step-4 .ProgressSteps-bar:after {
+	width: 100%;
+}
+
+.ProgressSteps-step {
+	float: left;
+	box-sizing: border-box;
+	flex: 0 1 auto;
+	text-align: center;
+	position: relative;
+	z-index: 10;
+}
+html.ie9 .ProgressSteps-step + .ProgressSteps-step {
+	margin-left: 4.85em;
+}
+html.ie9 .ProgressSteps--short .ProgressSteps-step + .ProgressSteps-step {
+	margin-left: 8.1em;
+}
+
+.ProgressSteps-icon {
+	color: white;	
+	width: 24px;
+	height: 24px;
+	background-color: #d7d9e0;
+	fill: #d7d9e0;
+	border-radius: 50%;
+	padding: 0.3em;
+	max-width: 100%;
+}
+
+.ProgressSteps-step.is-complete .ProgressSteps-icon {
+	background-color: #0a4501;
+	fill: #d17402 ;
+}
+.ProgressSteps-step.is-current .ProgressSteps-icon {
+	background-color: #d17402;
+	fill: #047;
+}
+
+.ProgressSteps-label {
+	display: block;
+	text-transform: uppercase;
+	color: #d7d9e0;
+	font-family: "Open Sans", arial, sans-serif;
+}
+.ProgressSteps-step.is-complete .ProgressSteps-label, .ProgressSteps-step.is-current .ProgressSteps-label {
+	color: white;
+
+}
+@media screen and (max-width: 47.9375em) {
+	.ProgressSteps-label {
+		display: none;
+	}
+}
+
+.wrapper {
+	max-width: 980px;
+	margin: 4em auto;
+	font-size: 16px;
+}
+.wrapper .ProgressSteps-wrapper {
+	margin: 5em auto;
+}
+/* FIM DA BARRA DE PROGRESSO*/
+
+/* TESTANDO */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: 'Open sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(50deg, #f3c680, #a1e3e2);
+}
+
+/*--------------------
+Buttons
+--------------------*/
+.btn1 {
+  display: block;
+  background: #bded7d;
+  color: white;
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 5px;
+  position: relative;
+}
+.btn1::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .2s ease-in-out;
+  box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0), 0 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.btn1:hover::after {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+ a{
+	text-decoration: none!important;
+}
+
+/*--------------------
+Form
+--------------------*/
+.form fieldset {
+  border: none;
+  padding: 0;
+  padding: 10px 0;
+  position: relative;
+  clear: both;
+}
+.form fieldset.fieldset-expiration {
+  float: left;
+  width: 60%;
+}
+.form fieldset.fieldset-expiration .select {
+  width: 84px;
+  margin-right: 12px;
+  float: left;
+}
+.form fieldset.fieldset-ccv {
+  clear: none;
+  float: right;
+  width: 86px;
+}
+.form fieldset label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Inconsolata;
+  color: white;
+}
+.form fieldset input,
+.form fieldset .select {
+  width: 100%;
+  height: 38px;
+  color: #333333;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  outline: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.form fieldset input.input-cart-number,
+.form fieldset .select.input-cart-number {
+  width: 82px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.form fieldset input.input-cart-number:last-child,
+.form fieldset .select.input-cart-number:last-child {
+  margin-right: 0;
+}
+.form fieldset .select {
+  position: relative;
+}
+.form fieldset .select::after {
+  content: '';
+  border-top: 8px solid #222;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: absolute;
+  z-index: 2;
+  top: 14px;
+  right: 10px;
+  pointer-events: none;
+}
+.form fieldset .select select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+  padding: 0;
+  border: none;
+  width: 100%;
+  outline: none !important;
+  top: 6px;
+  left: 6px;
+  background: none;
+}
+.form fieldset .select select :-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+.form button {
+  width: 100%;
+  outline: none !important;
+  background: linear-gradient(180deg, #49a09b, #3d8291);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  box-shadow: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 90px;
+}
+.form button .fa {
+  margin-right: 6px;
+}
+
+/*--------------------
+Checkout
+--------------------*/
+.checkout {
+  margin: 150px auto 30px;
+  position: relative;
+  width: 460px;
+  background: rgba(0, 0, 0, .6);
+  border-radius: 15px;
+  padding: 160px 45px 30px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------
+Credit Card
+--------------------*/
+.credit-card-box {
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  width: 400px;
+  height: 280px;
+  position: absolute;
+  top: -112px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.credit-card-box:hover .flip, .credit-card-box.hover .flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.credit-card-box .front,
+.credit-card-box .back {
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  background: linear-gradient(135deg, #bd6772, #53223f);
+  position: absolute;
+  color: #fff;
+  font-family: Inconsolata;
+  top: 0;
+  left: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+.credit-card-box .front::before,
+.credit-card-box .back::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url("http://cdn.flaticon.com/svg/44/44386.svg") no-repeat center;
+  background-size: cover;
+  opacity: .05;
+}
+.credit-card-box .flip {
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+}
+.credit-card-box .logo {
+  position: absolute;
+  top: 9px;
+  right: 20px;
+  width: 60px;
+}
+.credit-card-box .logo svg {
+  width: 100%;
+  height: auto;
+  fill: #fff;
+}
+.credit-card-box .front {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+.credit-card-box .back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+.credit-card-box .back .logo {
+  top: 185px;
+}
+.credit-card-box .chip {
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  top: 20px;
+  left: 20px;
+  background: linear-gradient(135deg, #ddccf0 0%, #d1e9f5 44%, #f8ece7 100%);
+  border-radius: 8px;
+}
+.credit-card-box .chip::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 4px solid rgba(128, 128, 128, 0.1);
+  width: 80%;
+  height: 70%;
+  border-radius: 5px;
+}
+.credit-card-box .strip {
+  background: linear-gradient(135deg, #404040, #1a1a1a);
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 30px;
+  left: 0;
+}
+.credit-card-box .number {
+  position: absolute;
+  margin: 0 auto;
+  top: 103px;
+  left: 19px;
+  font-size: 38px;
+}
+.credit-card-box label {
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  opacity: 0.5;
+  display: block;
+  margin-bottom: 3px;
+}
+.credit-card-box .card-holder,
+.credit-card-box .card-expiration-date {
+  position: absolute;
+  margin: 0 auto;
+  top: 180px;
+  left: 19px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.credit-card-box .card-expiration-date {
+  text-align: right;
+  left: auto;
+  right: 20px;
+}
+.credit-card-box .ccv {
+  height: 36px;
+  background: #fff;
+  width: 91%;
+  border-radius: 5px;
+  top: 110px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 0 auto;
+  color: #000;
+  text-align: right;
+  padding: 10px;
+}
+.credit-card-box .ccv label {
+  margin: -25px 0 14px;
+  color: #fff;
+}
+#carrinho {
+	margin-top: 22vh;
+	padding-bottom: 8vh;
+}
+#voltarpag{
+	margin-top: 10px;
+	width: 100%;
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+.fadeIn {
+-webkit-animation: fadeIn .7s ease-in-out;
+-moz-animation: fadeIn .7s ease-in-out;
+-o-animation: fadeIn .7s ease-in-out;
+animation: fadeIn .7s ease-in-out;
+}
+
+#final img{
+	width: 85%;
+	margin-left: 10vh;
+	margin-top: 2rem;
+}
+#final{
+	padding-bottom: 2rem;
+}
+#finalizar{
+	margin-top: -7rem;
+	margin-left: 19vh;
+	width: 55%!important;
+}
+#finalvoltar{
+	margin-top: -7rem;
+	width: 11.5%;
+}
+@media (max-width: 1366px){
+	#finalizar{
+		margin-left: 23vh;
+	}
+}
+@media (max-width: 1200px){
+	#finalizar{
+		margin-top: -5rem;
+	}
+	#finalvoltar{
+		margin-top: -5rem;
+	}
+}
+@media (max-width: 1200px){
+	#finalvoltar i{
+		display: none;
+	}
+}
+@media (max-width: 990px){
+	#finalvoltar{
+		margin-top: -3rem;
+		width: 100px; 
+	}
+	#finalizar{
+		margin-top: -3rem;
+		margin-left: 21vh;
+	}
+}
+@media (max-width: 970px){
+	#finalizar{
+		margin-top: -3rem;
+		margin-left: 16.5vh;
+	}
+	#finalvoltar{
+		margin-top: -3rem;
+	}
+}
+@media (max-width: 770px){
+	#finalizar{
+		margin-left: 28vh;
+		width: 50%;
+	}
+	#finalvoltar{
+		width: 55%;
+		margin-top: -5px;
+		margin-left: 28vh;
+	}
+
+}
+@media (max-width: 750px){
+	#finalizar{
+		margin-left: 19vh;
+	}
+	#finalvoltar{
+		margin-left: 19vh;
+	}
+
+}
+@media (max-width: 500px){
+	#finalizar{
+		margin-top: -10px;
+	}
+	#finalvoltar{
+		margin-left: 19vh;
+		margin-top: 10px;
+	}
+
+}
+
+	
+@media (max-width: 735px){
+	#espaco{
+		margin-right: 30rem;
+	}
+}
+@media (max-width: 715px){
+	.card-deck{
+		margin: 0;
+		margin-top: 6rem;
+		margin-bottom: 3rem;
+	}
+}
+
+@media (max-width: 386px){
+	#checkout{
+		margin: 0;
+			}
+	#carrinho {
+		margin-top: 14rem;
+		margin-left: -36px;
+	}
+	.credit-card-box{
+		max-width: 150px;
+		margin-left: 0px;
+	}
+	.credit-card-box .front,
+	.credit-card-box .back{
+	margin-left: -7rem;
+	max-width: 340px;
+}
+.credit-card-box .back{
+		max-width: 340px; 
+		margin-left: -4.9rem;
+}
+	#nomenocartao{
+		margin-right: 20px;
+	}
+
+	#navbotao{
+		margin-right: .5rem;
+	}
+	html{
+		overflow-x: hidden;
+	}
+	#card-number{
+		margin-right: 1px;
+	}
+	#card-number-1{
+		margin-right: 1px;
+	}
+	#card-number-2{
+		margin-right: 1px;
+	}
+	.fieldset-ccv{
+		margin-right: 2rem;
+	}
+	#trocar i{
+		display: none;
+	}
+	#final{
+		margin-left: -30px;
+	}
+	#chegaprabaixo{
+		margin-top: 4rem;
+	}
+	#cadastro2{
+		margin-left: -15px;
+		margin-right: 0;
+	}
+}
+
