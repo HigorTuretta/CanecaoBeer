@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/personal.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.10.2/js/all.js" data-auto-replace-svg="nest"></script>
+	<script type="text/javascript" src="js/personalscript.js?v=1.2"></script>
+	<link rel="shortcut icon" href="imagens/iconaba.ico" type="image/x-icon"/>
+	<title>Canecão Beer</title>
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!--COMEÇO DA SESSÃO HOME-->
+	<div id="home">
+		<!--NAVBAR-->
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="index.html"><img src="imagens/logo.png"></a>
+			
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item" id="homefdp">
+						<a class="nav-link" href="#home" title="Home">Início</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#comofunciona" title="Como Funciona">Como Funciona</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#estemes" title="Este mês">Este mês</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"  id="#cadastro" href="cadastro.html" title="Assinar">Assinar</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sobre" title="Sobre Nós">Sobre Nós</a>
+					</li>
+				</ul>
+			</div>			
+		</nav>
+		<!-- COMEÇO DO SLIDE -->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-internal="5000">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>				
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active" style="background-image: url(imagens/s1.jpg);">
+					<div class="carousel-caption text-center">
+						<h1>Bem Vindo!</h1>
+						<h3>O melhor da Cerveja a um clique de você</h3>
+						<a href="cadastro.html" class="btn btn-outline-light btn-lg" >Assine já</a>							
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(imagens/s2.jpg);">
+					<div class="carousel-caption text-center">
+						<h1>Bem Vindo!</h1>
+						<h3>O melhor da Cerveja a um clique de você</h3>
+						<a href="cadastro.html" class="btn btn-outline-light btn-lg" >Assine já</a>							
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(imagens/s3.jpg);">
+					<div class="carousel-caption text-center">
+						<h1>Bem Vindo!</h1>
+						<h3>O melhor da Cerveja a um clique de você</h3>
+						<a href="cadastro.html" class="btn btn-outline-light btn-lg" >Assine já</a>							
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- FIM DO SLIDE -->	
+		<!--COMEÇO DE COMO FUNCIONA-->
+		<div id="comofunciona" class="text-center offset">
+			<div class="container">
+				<div id="titlefunciona">
+					<h1>Fácil e prático</h1>
+					<h4>como todo mundo gosta</h4>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<span class="numbers">1</span><br>
+						<p class="N-description">Escolha seu plano</p>
+						<p class="Sub-description">Tem um pra qualquer bolso :)</p>
+					</div>
+					<div class="col-sm">
+						<span class="numbers">2</span>
+						<p class="N-description">Informe seu endereço</p>
+						<p class="Sub-description">Sua cerveja vai direto pra você!</p>
+					</div>
+					<div class="col-sm">
+						<span class="numbers">3</span>
+						<p class="N-description3">Aprecie sua deliciosa cerveja<br>
+						todo mês no conforto da sua casa</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--FIM DE COMO FUNCIONA-->
+
+		<!-- ESTE MÊS -->
+		<div  id="estemes" class="offset">
+			<h5 id="estemestitle" class="text-center">CERVEJAS DO MÊS</h5>
+			<div class="w-100 cervejasbg pt-3 pb-3" id="cervejas">
+				<div class="mr-4 ">
+					<div class="cervejinhas row container mx-auto">
+						<div class="col ml-5" align="center">
+							<a href="#excerveja" id="cerveja1" class="text-decoration-none text-dark"><img class="imgcervejas d-block" src="imagens/cerva1.png">PILSEN</a>
+						</div>
+						<div class="col" align="center">
+							<a href="#excerveja" id="cerveja2" class="text-decoration-none text-dark"><img class="imgcervejas d-block" src="imagens/cerva2.png">BELGIAN IPA</a>
+						</div>
+						<div class="col" align="center">
+							<a href="#excerveja" id="cerveja3" class="text-decoration-none text-dark"><img class="imgcervejas d-block" src="imagens/cerva3.png">AMERICAN PALE ALE</a>
+						</div>
+						<div class="col" align="center">
+							<a href="#excerveja" id="cerveja4" class="text-decoration-none text-dark"><img class="imgcervejas d-block" align="center" src="imagens/cerva4.png">WITBIER
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- EXPLICAÇÕES DAS CERVEJAS -->
+		<div id="excerveja">
+			
+		</div>
+
+		<!-- FIM DE ESTE MÊS -->
+		
+		<!--RODAPÉ-->
+		<div id="sobre">
+			<footer>
+				<div class="row justify-content-center">
+					<div class="col-md-5 text-center">
+						<img src="imagens/logo.png">
+						<p>Nós da Canecão Beer sempre buscamos levar para você Craft Beers com a maior excelência e qualidade encontradas no mercado, não só brasileiro mas exterior, assim, você pode experimentar o verdadeiro gosto de uma cerveja de verdade.</p>
+						<strong>Contato</strong>
+						<p>(32)8888-8888<br>contatocanecao@gmail.com</p>
+						<a href="https://pt-br.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+						<a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+					</div>
+					<hr class="socket">
+					<div class="text-center">
+						<p>®Canecão Beer. <br>Se beber não dirija.
+							<br><br>
+							Está não é uma marca verdadeira, todas as imagens utilizadas foram retiradas do Google Imagens<br>
+							Trabalho de WEB/Negócios Eletrônicos/Engenharia de Software<br>
+							Faculdade Santa Marcelina Muriaé
+						</p>
+					</div>
+				</div>	
+			</footer>
+		</div>
+	</div>
+		<!--FIM DO RODAPÉ-->
+	</body>
+	</html>
